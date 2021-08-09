@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "quantum-device-322319-tfstate"
     prefix = "env/prod"
   }
 }
